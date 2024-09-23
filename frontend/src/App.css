@@ -1,0 +1,278 @@
+
+.task-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.task-card {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+}
+
+.task-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.task-links {
+  margin-bottom: 20px;
+}
+
+.task-link {
+  margin: 0 15px;
+  color: green;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+
+.task-description {
+  font-size: 0.9rem;
+  color: #555; 
+  text-align: left;
+}
+.add-task-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5; 
+}
+
+.add-task-card {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  max-width: 600px;
+  width: 100%;
+}
+
+.add-task-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-task-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.add-task-button {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.task-list-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.task-list-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.task-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.task-title {
+  color: #28a745;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.task-assignee,
+.task-due-date {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.task-details-link {
+  color: #28a745;
+  text-decoration: none;
+  float: right;
+  margin-top: 10px;
+}
+
+hr {
+  margin-top: 10px;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+.task-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.task-details-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 900px;
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+
+.task-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.task-info p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.task-actions {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.update-task-btn,
+.back-to-list-btn {
+  background-color: transparent;
+  color: rgb(3, 103, 13);
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.form {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 350px;
+  margin: auto;
+  position: relative;
+  top: 150px;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.input_box {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.input_box input {
+  width: 100%;
+  padding: 10px;
+  padding-left: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+  outline: none;
+}
+
+.input_box input:focus {
+  border-color: #76c893;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #76c893;
+}
+
+.input_box.button input[type="submit"] {
+  background-color: #28a745; /* Green button */
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.input_box.button input[type="submit"]:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.sign_up {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.sign_up a {
+  color: #28a745;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.sign_up a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 400px) {
+  .form {
+    width: 100%;
+    padding: 20px;
+  }
+}
